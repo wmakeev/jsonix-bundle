@@ -1,0 +1,7 @@
+
+
+function _jsonixFactory(DOMImplementation, XMLSerializer, DOMParser, XMLHttpRequest) {
+
+    var document = { implementation: new DOMImplementation() },
+        window = window || {};
+
